@@ -7,4 +7,6 @@ read var1
         sudo apt-get full-upgrade -y
         sudo apt install apt-utils -y
         sudo apt install nano -y
-        wget 
+        wget https://raw.githubusercontent.com/silverace71/quick-tools/main/portainer-simple.sh
+        sudo chmod +x portainer-simple.sh
+        ./portainer-simple.sh
