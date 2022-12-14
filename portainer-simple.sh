@@ -1,5 +1,5 @@
 #!/bin/bash
-##all the code
+##all the code to install docker | docker compose | portainer
 sudo apt update
 sudo curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
