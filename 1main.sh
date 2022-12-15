@@ -1,8 +1,12 @@
 #!/bin/bash
 
+##Confrimation
 echo "this will install many services such as nano, apt-utils, docker, docker container, portainer, and it will update your system. Do you wish to continue (y/n)?"
 read var1
-    if [[ $var1 == "y" ]]; then
+if [[ $var1 == "y" ]]; then
+echo "Please know that this script will only work if you have apt or are running a debian system. Do you still wish to continue (y/n)?"
+read var2
+    if [[ $var2 == "y" ]]; then
         echo "please enter your username"
         read name
 ##This is just the simple install commands
@@ -26,6 +30,9 @@ read var1
             else
                 echo "To avoid any issues you must reboot or log out and back in. Otherwise you might run into issues. Good luck."
             fi
+        else
+            echo "cool"
+        fi
     else
         echo "cool"
     fi
