@@ -15,6 +15,7 @@ read var2
         sudo apt install apt-utils -y
         sudo apt install nano -y
         sudo apt install neofetch -y
+        sudo apt install apache2-utils -y
 ##docker | docker compose | portainer install (you can use my ez portainer install script to do just this part if thats all you're looking for)
         wget https://raw.githubusercontent.com/silverace71/quick-tools/main/portainer-simple.sh
         sudo chmod +x portainer-simple.sh
