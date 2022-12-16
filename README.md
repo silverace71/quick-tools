@@ -1,5 +1,5 @@
 # quick-tools
-Whenever I make a new VM, I use ubuntu server (minimised). Because of this, nothing is installed. This script installs anything that I usally use/need. This script will be actively maintained
+Whenever I make a new VM, I use ubuntu server (minimized). Because of this, nothing is installed. This script installs anything that I usally use/need. This script will be actively maintained
 
 ---
 ## INSTALL SCRIPT
