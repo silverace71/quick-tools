@@ -4,15 +4,24 @@ Whenever I make a new VM, I use ubuntu server (minimized). Because of this, noth
 ---
 ## INSTALL SCRIPT
 ```
-wget https://raw.githubusercontent.com/silverace71/quick-tools/main/1main.sh && sudo chmod +x 1main.sh && ./1main.sh
+wget https://raw.githubusercontent.com/silverace71/quick-tools/main/quick-tools-install.sh
 ```
-
+```
+sudo chmod +x quick-tools-install.sh
+```
+```
+./quick-tools-install.sh
+```
 ## What does it install
 - apt-utils
 - nano text editor
 - neofetch
+- apache2-utils
+- jq
+- java
+### Optional install
 - docker
-- docker compose
+- docker-compose
 - portainer
 --- 
 ### Contact me!
